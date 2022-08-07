@@ -1,6 +1,11 @@
 # django web tutorial !
 ## 220807
 ## 인스타그램 클론 만들기
+### 강의
+#### https://www.youtube.com/watch?v=M8UPyeF5DfM&t=3895s
+### 참고 사이트
+- google material icon <br/> https://fonts.google.com/?selected=Material+Icons&icon.style=Rounded
+- bootstrap <br/> https://getbootstrap.kr/ 
 
 ### <br/><br/><br/>
 
