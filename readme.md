@@ -5,6 +5,7 @@
 #### https://www.youtube.com/watch?v=M8UPyeF5DfM&t=3895s
 ### 참고 사이트
 - google material icon <br/> https://fonts.google.com/?selected=Material+Icons&icon.style=Rounded
+- google material policy and css link 등 <br/> https://developers.google.com/fonts/docs/material_icons#icon_font_for_the_web
 - bootstrap <br/> https://getbootstrap.kr/ 
 
 ### <br/><br/><br/>
