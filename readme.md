@@ -10,6 +10,8 @@
 
 ### <br/><br/><br/>
 
+### 
+
 ### 기본 틀 잡기
 ![image](https://user-images.githubusercontent.com/62974484/183278548-dd2542f9-3616-409f-94ff-1df871c9776a.png) <br/>
 ### <br/><br/><br/>
@@ -26,21 +28,18 @@
 https://user-images.githubusercontent.com/62974484/185751152-9c4a71f4-8163-4956-a733-beaca595a685.mp4
 ### <br/><br/><br/> 
 
+### 자신의 프로젝트 디렉토리로 이동한 다음 djnago 프로젝트 생성한다.
+```
+django-admin startproject mysite
+```
+
+### 서버 실행 방법
+```
+python manage.py runserver
+```
+
 ## DB 생성하기
 ### django 에서는 models 라는 것을 불러와서 쓴다. 그리고 만든 models.py 를 실행하면 0001_initial.py 같은 스크립트가 하나 생성된다. 이게 DB 를 담고 있는 스크립트이다.
-#### models.py
-```
-from django.db import models
-
-
-# Create your models here
-class Feed(models.Model) : 
-    content = models.TextField()        # 글 내용
-    image = models.TextField()      # 피드 이미지
-    profile_image = models.TextField()      # 프로필 이미지
-    user_id = models.TextField()         # 글쓴이
-    like_count = models.IntegerField()      # 좋아요 수
-```
 #### 이후 다음의 명령어를 실행하면 models.py 에 있는 객체가 DB 로 생기게 된다.
 ```
 python manage.py makemigrations instagram_clone
