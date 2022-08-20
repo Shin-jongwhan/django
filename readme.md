@@ -91,8 +91,9 @@ DELETE FROM instagram_clone_feed
 #### 그래서 models.py 에 있는 것이 DB 가 되고 djnago 는 이를 이용해 정보를 조회할 수 있다.
 ![image](https://user-images.githubusercontent.com/62974484/185757724-365e38ef-fe61-468a-9207-bfa221cfffe5.png)
 
-
 ### url.py
 #### 불러올 url 스크립트를 import 하고 지정한다.
 ![image](https://user-images.githubusercontent.com/62974484/185757600-88d38331-2122-4690-b7d5-ad216863466e.png)
 
+#### 웹페이지를 새로고침하면 출력된 것을 확인할 수 있다.
+![image](https://user-images.githubusercontent.com/62974484/185757989-6552f9d9-cd0a-4be4-acc0-aa46d5c71fd4.png)
