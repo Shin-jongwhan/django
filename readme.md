@@ -27,8 +27,9 @@ https://user-images.githubusercontent.com/62974484/185751152-9c4a71f4-8163-4956-
 ### <br/><br/><br/> 
 
 ## DB 생성하기
-### django 에서는 models 라는 것을 불러와서 쓴다.
-![image](https://user-images.githubusercontent.com/62974484/185752864-e799bcd8-cba8-4df5-bbcc-ec726ea7c978.png)
+### django 에서는 models 라는 것을 불러와서 쓴다. 그리고 만든 models.py 를 실행하면 0001_initial.py 같은 스크립트가 하나 생성된다. 이게 DB 를 담고 있는 스크립트이다.
+![image](https://user-images.githubusercontent.com/62974484/185752864-e799bcd8-cba8-4df5-bbcc-ec726ea7c978.png)  ->  ![image](https://user-images.githubusercontent.com/62974484/185752994-48ccef51-8b5d-4623-9d91-faac12b28a4b.png)
+
 ##### <br/>
 #### models.py
 ```
