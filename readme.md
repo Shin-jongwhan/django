@@ -14,12 +14,14 @@
 ```
 django-admin startproject mysite
 ```
-### <br/>
+#### <br/>
 
 ### 웹서버 실행
 ```
 python manage.py runserver
 ```
+### <br/><br/><br/>
+
 
 ### 기본 틀 잡기
 ![image](https://user-images.githubusercontent.com/62974484/183278548-dd2542f9-3616-409f-94ff-1df871c9776a.png) <br/>
