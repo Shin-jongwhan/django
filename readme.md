@@ -22,4 +22,8 @@
 ![image](https://user-images.githubusercontent.com/62974484/183300174-6ff04a6f-b263-4e2a-bfa8-554b401e1a4a.png) <br/>
 ### <br/><br/><br/> 
 
+### 더미 완성본
+https://user-images.githubusercontent.com/62974484/185751152-9c4a71f4-8163-4956-a733-beaca595a685.mp4
+### <br/><br/><br/> 
+
 
