@@ -61,7 +61,7 @@ python manage.py migrate
 
 ### <br/><br/>
 
-### sqlite DB 조회 방법
+### **sqlite DB 조회 방법**
 #### 만약 불러온 db 를 보고싶다면, vscode 를 쓴다면 sqlite 를 설치하고 command pallete (ctrl + shift + P) 에서 SQLite: Open db 를 이용한다.
 #### 그러면 왼쪽 하단에 EXPLORE DB 창이 생기고 DB 를 확인할 수 있다.
 ![image](https://user-images.githubusercontent.com/62974484/185755939-f5055654-796b-473b-b5e8-b51eb12767fd.png)
