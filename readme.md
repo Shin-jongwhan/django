@@ -49,7 +49,14 @@ python manage.py makemigrations instagram_clone
 ![image](https://user-images.githubusercontent.com/62974484/185752864-e799bcd8-cba8-4df5-bbcc-ec726ea7c978.png) 
 ##### 실행 후
 ![image](https://user-images.githubusercontent.com/62974484/185752994-48ccef51-8b5d-4623-9d91-faac12b28a4b.png)
+### <br/>
+#### django 는 기본적으로 db.sqlite3 라는 db 파일이 생성된다.
+![image](https://user-images.githubusercontent.com/62974484/185753348-75e96d90-581a-4ac3-9bfa-13853057ed01.png)
+#### migrate 를 하면 여러가지 기본 모델을 불러오고 내가 만든 모델 또한 불러온다.
+```
+python manage.py migrate
+```
+![image](https://user-images.githubusercontent.com/62974484/185753444-e02967f8-11a7-4b87-b059-d39ae91fa614.png)
 
-### <br/><br/><br/> 
 
 
