@@ -59,5 +59,10 @@ python manage.py migrate
 ```
 ![image](https://user-images.githubusercontent.com/62974484/185753444-e02967f8-11a7-4b87-b059-d39ae91fa614.png)
 
+#### 만약 불러온 db 를 보고싶다면, vscode 를 쓴다면 sqlite 를 설치하고 command pallete (ctrl + shift + P) 에서 SQLite: Open db 를 이용한다.
+#### 그러면 왼쪽 하단에 EXPLORE DB 창이 생기고 DB 를 확인할 수 있다.
+![image](https://user-images.githubusercontent.com/62974484/185755939-f5055654-796b-473b-b5e8-b51eb12767fd.png)
+#### 특정 테이블에 우클릭하면 쿼리를 생성할 수 있고 테이블과 컬럼 정보 등을 조회할 수 있다.
+![image](https://user-images.githubusercontent.com/62974484/185755977-f312f3d2-74a9-42e7-994d-c6b557502bad.png)
 
 
