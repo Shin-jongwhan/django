@@ -101,8 +101,9 @@ DELETE FROM instagram_clone_feed
 ## <br/><br/><br/>
 
 ## 중간 점검
-### db 테이블을 다음과 같이 만들었다.
+### DB 테이블을 다음과 같이 만들었다.
 ![image](https://user-images.githubusercontent.com/62974484/185759060-0687149a-5221-427e-bfd9-7146acc43550.png)
 
+### 컨텐츠 조회는 html 상에서 DB 테이블에 row 수 만큼 for 문으로 이루어진다.
 https://user-images.githubusercontent.com/62974484/185759170-996c3165-85e0-4927-8d12-17cfcfea8ef2.mp4
 
