@@ -73,8 +73,8 @@ python manage.py migrate
 
 ### 테이블에 정보 추가하기
 ```
-NSERT INTO instagram_clone_feed (content, image, profile_image, user_id, like_count) 
-    VALUES ("1", "1", "1", "1", 1);
+INSERT INTO instagram_clone_feed (content, image, profile_image, user_id, like_count) 
+    VALUES ("우마무스메 컨디션 상승 이벤트", "https://static.inven.co.kr/column/2022/06/28/news/i15295595820.png", "https://user-images.githubusercontent.com/62974484/183277851-02f0c8af-35d4-4bec-9c03-9a2b3bf3391e.PNG", "우마무스메_OFFICIAL", 12345);
 ```
 ### 테이블에 정보 삭제하기
 ```
@@ -82,5 +82,5 @@ NSERT INTO instagram_clone_feed (content, image, profile_image, user_id, like_co
 DELETE FROM instagram_clone_feed 
     WHERE id = 2;
 ```
-![image](https://user-images.githubusercontent.com/62974484/185756509-dcf6c542-800c-41f5-b89a-de9e5343d0bb.png)
+![image](https://user-images.githubusercontent.com/62974484/185756787-d3cb1e7e-5c8a-49b9-85ec-af0576fc5a8d.png)
 ### <br/> 
