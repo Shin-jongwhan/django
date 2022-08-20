@@ -10,7 +10,16 @@
 
 ### <br/><br/><br/>
 
-### 
+### django 프로젝트 생성하기(자신의 프로젝트 경로로 가서 실행한다)
+```
+django-admin startproject mysite
+```
+### <br/>
+
+### 웹서버 실행
+```
+python manage.py runserver
+```
 
 ### 기본 틀 잡기
 ![image](https://user-images.githubusercontent.com/62974484/183278548-dd2542f9-3616-409f-94ff-1df871c9776a.png) <br/>
