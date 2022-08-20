@@ -8,7 +8,7 @@
 - google material policy and css link 등 <br/> https://developers.google.com/fonts/docs/material_icons#icon_font_for_the_web
 - bootstrap <br/> https://getbootstrap.kr/ 
 
-### <br/><br/><br/>
+## <br/><br/><br/>
 
 ## djnago 실행
 ### django 프로젝트 생성하기(자신의 프로젝트 경로로 가서 실행한다)
@@ -38,7 +38,8 @@ python manage.py runserver
 
 ### 더미 완성본
 https://user-images.githubusercontent.com/62974484/185751152-9c4a71f4-8163-4956-a733-beaca595a685.mp4
-### <br/><br/><br/> 
+
+## <br/><br/><br/> 
 
 
 ## DB 생성하기
@@ -59,7 +60,7 @@ python manage.py migrate
 ```
 ![image](https://user-images.githubusercontent.com/62974484/185753444-e02967f8-11a7-4b87-b059-d39ae91fa614.png)
 
-### <br/><br/>
+### <br/><br/><br/>
 
 ### sqlite DB 조회 방법
 #### 만약 불러온 db 를 보고싶다면, vscode 를 쓴다면 sqlite 를 설치하고 command pallete (ctrl + shift + P) 에서 SQLite: Open db 를 이용한다.
