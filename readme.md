@@ -97,3 +97,10 @@ DELETE FROM instagram_clone_feed
 
 #### 웹페이지를 새로고침하면 출력된 것을 확인할 수 있다.
 ![image](https://user-images.githubusercontent.com/62974484/185757989-6552f9d9-cd0a-4be4-acc0-aa46d5c71fd4.png)
+
+## <br/><br/><br/>
+
+## 중간 점검
+id	content	image	profile_image	user_id	like_count
+5	우마무스메 컨디션 상승 이벤트	https://static.inven.co.kr/column/2022/06/28/news/i15295595820.png	https://user-images.githubusercontent.com/62974484/183277851-02f0c8af-35d4-4bec-9c03-9a2b3bf3391e.PNG	우마무스메_OFFICIAL	12345
+6	우마무스메 100만 다운로드 돌파 !	https://biz.chosun.com/resizer/ZnJXVrt9Y6DCh6ldOZV3HCR5d_Y=/616x0/smart/cloudfront-ap-northeast-1.images.arcpublishing.com/chosunbiz/JDKBQSGE6FQN6BHYTSFF47JVNA.jpg	https://user-images.githubusercontent.com/62974484/183277851-02f0c8af-35d4-4bec-9c03-9a2b3bf3391e.PNG	우마무스메_OFFICIAL	1000000
