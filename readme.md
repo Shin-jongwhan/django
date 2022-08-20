@@ -69,4 +69,18 @@ python manage.py migrate
 #### 특정 테이블에 우클릭하면 쿼리를 생성할 수 있고 테이블과 컬럼 정보 등을 조회할 수 있다.
 ![image](https://user-images.githubusercontent.com/62974484/185755977-f312f3d2-74a9-42e7-994d-c6b557502bad.png)
 
+### <br/>
 
+### 테이블에 정보 추가하기
+```
+NSERT INTO instagram_clone_feed (content, image, profile_image, user_id, like_count) 
+    VALUES ("1", "1", "1", "1", 1);
+```
+### 테이블에 정보 삭제하기
+```
+-- DELETE FROM 테이블명 where 조건식;
+DELETE FROM instagram_clone_feed 
+    WHERE id = 2;
+```
+![image](https://user-images.githubusercontent.com/62974484/185756509-dcf6c542-800c-41f5-b89a-de9e5343d0bb.png)
+### <br/> 
