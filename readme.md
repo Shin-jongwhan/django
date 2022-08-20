@@ -85,3 +85,13 @@ DELETE FROM instagram_clone_feed
 ```
 ![image](https://user-images.githubusercontent.com/62974484/185756787-d3cb1e7e-5c8a-49b9-85ec-af0576fc5a8d.png)
 ### <br/> 
+
+### views.py
+#### from .models import Feed 는 db.sqlite3 에 들어갔고, 그 안에 정보들을 생성해주었다. 그래서 models.py 에 있는 것이 DB 가 되고 다음과 같이 쓰면 정보를 조회할 수 있다.
+![image](https://user-images.githubusercontent.com/62974484/185757724-365e38ef-fe61-468a-9207-bfa221cfffe5.png)
+
+
+### url.py
+#### 불러올 url 스크립트를 import 하고 지정한다.
+![image](https://user-images.githubusercontent.com/62974484/185757600-88d38331-2122-4690-b7d5-ad216863466e.png)
+
