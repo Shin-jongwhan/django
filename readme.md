@@ -26,4 +26,24 @@
 https://user-images.githubusercontent.com/62974484/185751152-9c4a71f4-8163-4956-a733-beaca595a685.mp4
 ### <br/><br/><br/> 
 
+## DB 생성하기
+### django 에서는 models 라는 것을 불러와서 쓴다.
+![image](https://user-images.githubusercontent.com/62974484/185752864-e799bcd8-cba8-4df5-bbcc-ec726ea7c978.png)
+##### <br/>
+#### models.py
+```
+from django.db import models
 
+
+# Create your models here
+class Feed(models.Model) : 
+    content = models.TextField()        # 글 내용
+    image = models.TextField()      # 피드 이미지
+    profile_image = models.TextField()      # 프로필 이미지
+    user_id = models.TextField()         # 글쓴이
+    like_count = models.IntegerField()      # 좋아요 수
+```
+#### 이후 다음의 명령어를 실행하면 models.py 에 있는 객체가 DB 로 생기게 된다.
+```
+python manage.py makemigrations instagram_clone
+```
