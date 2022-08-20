@@ -10,6 +10,7 @@
 
 ### <br/><br/><br/>
 
+## djnago 실행
 ### django 프로젝트 생성하기(자신의 프로젝트 경로로 가서 실행한다)
 ```
 django-admin startproject mysite
