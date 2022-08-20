@@ -87,7 +87,8 @@ DELETE FROM instagram_clone_feed
 ### <br/> 
 
 ### views.py
-#### from .models import Feed 는 db.sqlite3 에 들어갔고, 그 안에 정보들을 생성해주었다. 그래서 models.py 에 있는 것이 DB 가 되고 다음과 같이 쓰면 정보를 조회할 수 있다.
+#### from .models import Feed 는 db.sqlite3 에 들어갔고, 그 안에 정보들을 생성해주었다. 
+#### 그래서 models.py 에 있는 것이 DB 가 되고 djnago 는 이를 이용해 정보를 조회할 수 있다.
 ![image](https://user-images.githubusercontent.com/62974484/185757724-365e38ef-fe61-468a-9207-bfa221cfffe5.png)
 
 
