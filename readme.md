@@ -126,15 +126,3 @@ https://user-images.githubusercontent.com/62974484/185759170-996c3165-85e0-4927-
 
 ## 이미지 파일 업로드 화면 만들기(모달)
 ### Jquery, javascript 를 사용한다.
-#### Jquery 사용 방법
-```
-<!-- $ 로 시작하여 사용하고 # 은 id, .은 class 를 인식한다. id 는 단 하나만 인식한다. $(id / class).[기능](function() { 기능 내용 }) -->
-<script>
-    $('#nav_bar_add_box').click(function(){
-        /* alert('add_box 를 눌렀습니다.'); */
-        $('.modal_overlay').css({
-            display: 'flex'
-        });
-    })
-</script>
-```
