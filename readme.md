@@ -126,3 +126,9 @@ https://user-images.githubusercontent.com/62974484/185759170-996c3165-85e0-4927-
 
 ## 이미지 파일 업로드 화면 만들기(모달)
 ### Jquery, javascript 를 사용한다.
+#### 사진 업로드 구현
+https://user-images.githubusercontent.com/62974484/185799246-9dfe6c35-65f7-42f7-a140-8a13e0c70631.mp4
+
+## <br/><br/><br/>
+
+
