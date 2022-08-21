@@ -131,4 +131,8 @@ https://user-images.githubusercontent.com/62974484/185799246-9dfe6c35-65f7-42f7-
 
 ## <br/><br/><br/>
 
-
+## 서버로 파일 업로드하는 API 만들기
+### API 는 ajax 를 이용하여 만든다.
+### AJAX : Asynchronous JavaScript and XML
+#### 비동기적으로 자바스크립트를 이용하여 정보를 교환하는 방식이다.
+#### 서버에 요청을 하면 서버에는 요청을 받고, 웹페이지에서는 그 요청이 끝날 때까지 기다리지 않고 사용할 수 있도록 한다.
