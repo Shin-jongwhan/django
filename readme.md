@@ -7,6 +7,20 @@
 - google material icon <br/> https://fonts.google.com/?selected=Material+Icons&icon.style=Rounded
 - google material policy and css link 등 <br/> https://developers.google.com/fonts/docs/material_icons#icon_font_for_the_web
 - bootstrap <br/> https://getbootstrap.kr/ 
+### <br/>
+
+### 링크
+```
+<!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+<!-- google materials icon -->
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet">
+
+<!-- Jquery -->
+<script  src="http://code.jquery.com/jquery-latest.min.js"></script>
+```
 
 ## <br/><br/><br/>
 
