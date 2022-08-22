@@ -136,3 +136,9 @@ https://user-images.githubusercontent.com/62974484/185799246-9dfe6c35-65f7-42f7-
 ### AJAX : Asynchronous JavaScript and XML
 #### 비동기적으로 자바스크립트를 이용하여 정보를 교환하는 방식이다.
 #### 서버에 요청을 하면 서버에는 요청을 받고, 웹페이지에서는 그 요청이 끝날 때까지 기다리지 않고 사용할 수 있도록 한다.
+### 업로드 버튼을 누르면 피드가 업데이트된다.
+https://user-images.githubusercontent.com/62974484/185976857-68c0a507-f86c-400e-8f9f-fde87622f7d9.mp4
+### DB 도 같이 업데이트되고 왼쪽에 media 폴더에 보면 이미지 파일도 업로드가 된다.
+https://user-images.githubusercontent.com/62974484/185976501-f38ad4ab-7839-4466-8a61-2818e2c971ce.mp4
+
+
