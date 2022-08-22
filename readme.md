@@ -139,6 +139,6 @@ https://user-images.githubusercontent.com/62974484/185799246-9dfe6c35-65f7-42f7-
 ### 업로드 버튼을 누르면 피드가 업데이트된다.
 https://user-images.githubusercontent.com/62974484/185976857-68c0a507-f86c-400e-8f9f-fde87622f7d9.mp4
 ### DB 도 같이 업데이트되고 왼쪽에 media 폴더에 보면 이미지 파일도 업로드가 된다.
-https://user-images.githubusercontent.com/62974484/185976501-f38ad4ab-7839-4466-8a61-2818e2c971ce.mp4
+https://user-images.githubusercontent.com/62974484/185977423-fa90668d-ff07-4a94-a5e3-11ac8f3f0871.mp4
 
 
