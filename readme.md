@@ -206,3 +206,11 @@ class User(AbstractBaseUser) :
 -- 덤프 파일 read -> db 에 모든 테이블, 컬럼 정보 등이 들어간다.
 -- .read test.txt
 ```
+
+### 그 다음 makemigrations, migrate 해주면 django 웹에 반영 가능하다.
+```
+# user 앱 폴더 안에 migration 폴더가 생성되고 db table 이 등록이 된다.
+> python manage.py makemigrations
+# django 에 db 반영
+> python manage.py migrate
+```
