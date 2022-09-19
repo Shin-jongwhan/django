@@ -201,7 +201,8 @@ class User(AbstractBaseUser) :
 ```
 ### <br/>
 
-#### 새로운 db를 생성할 것이다. 혹시 모르니 sqltie db 를 백업해두고 dump 를 진행할 것이다.
+### 새로운 db를 생성
+#### 혹시 모르니 sqltie db 를 백업해두고 dump 를 진행할 것이다.
 #### vscode 에서는 ',' 등의 출력이 애매하게 나오기때문에 sqlite3 를 새로 다운로드해준다.
 ##### https://www.sqlite.org/2022/sqlite-dll-win64-x64-3390300.zip
 #### 그 다음 환경 변수 등록
