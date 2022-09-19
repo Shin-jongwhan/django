@@ -246,5 +246,5 @@ class User(AbstractBaseUser) :
 ![image](https://user-images.githubusercontent.com/62974484/191032652-b7b9a2a0-af09-48e4-aa62-8681c435e07a.png)
 #### 부트스트랩 - 문서 - 스타터 템플릿을 복사해서 만든다.
 #### 중간 점검
-https://user-images.githubusercontent.com/62974484/191056779-fb9bd3ce-ca18-4d27-b0ff-03df68a1d2b2.mp4
+https://user-images.githubusercontent.com/62974484/191057703-0872b3c8-5414-4861-bb9d-99675ab061cf.mp4
 
