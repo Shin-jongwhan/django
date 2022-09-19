@@ -24,7 +24,7 @@
 
 ## <br/><br/><br/>
 
-## djnago 실행
+## djnago
 ### django 프로젝트 생성하기(자신의 프로젝트 경로로 가서 실행한다)
 ```
 django-admin startproject mysite
@@ -35,6 +35,8 @@ django-admin startproject mysite
 ```
 python manage.py runserver
 ```
+
+### <br/>
 
 ### 다른 앱에 있는 urls 를 사용하는 방법(예시)
 ### 아래는 자신의 폴더 안에 있는 views 에서 만든 api 를 가져오는 것이다.
