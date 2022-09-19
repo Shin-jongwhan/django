@@ -41,7 +41,7 @@ python manage.py runserver
 ![image](https://user-images.githubusercontent.com/62974484/191037832-0bb39167-3e20-45ab-962f-76dfaa2e3e03.png)
 ![image](https://user-images.githubusercontent.com/62974484/191038018-db099ff7-af72-4689-9090-3ba25924a20a.png)
 ### 만약 다른 앱(폴더) 안에 있는 urls.py 를 사용하고 싶다면 urls.py 에 다음과 같이 적어주면 된다.
-### 이렇게 하면 장점은 앱마다 url 을 관리할 수 있다. 
+
 ```
 from django.urls import path, include
 
@@ -49,6 +49,10 @@ urlpatterns = [
     path('', include('[앱 이름].urls'))
 ]
 ```
+### 이렇게 하면 장점은 앱마다 url 을 관리할 수 있다. 
+### 원래 앱 안에 있는 urls.py 에 content/upload 라는 주소로 UploadFeed api 를 호출하기 만들어놨는데 만약 content 라는 앱을 만들고 그 안에 urls.py 에 upload 라는 api 를 만들어주면 주소 창에서 똑같이 호출이 가능하다.
+#### 아래는 해당 url 주소에 get 방식을 안 만들어놨기 때문에 에러나는 것이고 잘 호출이 되는 것을 알 수 있다.
+![image](https://user-images.githubusercontent.com/62974484/191039544-a57ed887-64be-47b4-958d-d288f52f7caf.png)
 
 ### <br/><br/><br/>
 
