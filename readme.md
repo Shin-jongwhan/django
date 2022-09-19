@@ -150,6 +150,7 @@ https://user-images.githubusercontent.com/62974484/185977423-fa90668d-ff07-4a94-
 ### django 에는 auth_user 라고 기본적인 user 테이블을 생성해주는데 커스텀 user 테이블을 생성하려면 다음과 같이 코드 추가
 ![image](https://user-images.githubusercontent.com/62974484/191026033-0be5c9db-bcf3-4a56-a5f7-570745ce0275.png)
 ### user 앱 내에 models.py 를 작성한다.
+![image](https://user-images.githubusercontent.com/62974484/191026501-1a6e65af-85fd-41e1-a264-49a0b0a397ab.png)
 ```
 from django.contrib.auth.base_user import AbstractBaseUser
 from django.db import models
