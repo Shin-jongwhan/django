@@ -141,4 +141,11 @@ https://user-images.githubusercontent.com/62974484/185976857-68c0a507-f86c-400e-
 ### DB 도 같이 업데이트되고 왼쪽에 media 폴더에 보면 이미지 파일도 업로드가 된다.
 https://user-images.githubusercontent.com/62974484/185977423-fa90668d-ff07-4a94-a5e3-11ac8f3f0871.mp4
 
+## <br/><br/><br/>
 
+## 로그인 페이지 구현
+### \* 로그인 페이지는 개별적으로 앱(프로젝트)을 새로 생성해줘서 관리한다.
+### 새로운 django 프로젝트를 생성한 후 기존 settings.py 에 앱을 등록해준다.
+![image](https://user-images.githubusercontent.com/62974484/191025477-1f2735b4-2315-4d1d-93a6-d5cca1c2bda3.png)
+### django 에는 auth_user 라고 기본적인 user 테이블을 생성해주는데 커스텀 user 테이블을 생성하려면 다음과 같이 코드 추가
+![image](https://user-images.githubusercontent.com/62974484/191026033-0be5c9db-bcf3-4a56-a5f7-570745ce0275.png)
