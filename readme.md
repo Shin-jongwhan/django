@@ -187,8 +187,22 @@ class User(AbstractBaseUser) :
 #### 시스템 변수 - path 등록
 ![image](https://user-images.githubusercontent.com/62974484/191027701-31c10c14-6d7b-4b2c-984e-cadd08b7a494.png)
 ```
+# cmd 에서 sqlite3 실행
+> sqlite3 [db_파일명]
+# 새로운 db 를 만들려면 그냥 새 파일명으로 생성해주면 된다.
+> sqlite3 newdb.sqlite3
+```
+
+```
+-- sqlite3
+-- output 지정. 안 해주면 그냥 cmd 창에 출력된다.
+.output test.txt
+-- stdout 으로 output 변경
+.output stdout
 -- 특정 테이블만 덤프
 .dump instagram_clone_feed
 -- 전체 db 덤프
 .dump
+-- 덤프 파일 read -> db 에 모든 테이블, 컬럼 정보 등이 들어간다.
+-- .read test.txt
 ```
