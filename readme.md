@@ -36,7 +36,7 @@ django-admin startproject mysite
 python manage.py runserver
 ```
 
-### <br/>
+### <br/><br/>
 
 ### 다른 앱에 있는 urls 를 사용하는 방법(예시)
 ### 아래는 자신의 폴더 안에 있는 views 에서 만든 api 를 가져오는 것이다.
