@@ -245,4 +245,6 @@ class User(AbstractBaseUser) :
 #### template 폴더 안에 user 폴더를 만든 후 join.html 을 만든다.
 ![image](https://user-images.githubusercontent.com/62974484/191032652-b7b9a2a0-af09-48e4-aa62-8681c435e07a.png)
 #### 부트스트랩 - 문서 - 스타터 템플릿을 복사해서 만든다.
+#### 중간 점검
+https://user-images.githubusercontent.com/62974484/191056779-fb9bd3ce-ca18-4d27-b0ff-03df68a1d2b2.mp4
 
