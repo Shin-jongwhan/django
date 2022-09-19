@@ -146,10 +146,13 @@ https://user-images.githubusercontent.com/62974484/185977423-fa90668d-ff07-4a94-
 ## 로그인 페이지 구현
 ### \* 로그인 페이지는 개별적으로 앱(프로젝트)을 새로 생성해줘서 관리한다.
 ### 새로운 django 프로젝트를 생성한 후 기존 settings.py 에 앱을 등록해준다.
+### <br/>
 ![image](https://user-images.githubusercontent.com/62974484/191025477-1f2735b4-2315-4d1d-93a6-d5cca1c2bda3.png)
 ### django 에는 auth_user 라고 기본적인 user 테이블을 생성해주는데 커스텀 user 테이블을 생성하려면 다음과 같이 코드 추가
+### <br/>
 ![image](https://user-images.githubusercontent.com/62974484/191026033-0be5c9db-bcf3-4a56-a5f7-570745ce0275.png)
 ### user 앱 내에 models.py 를 작성한다.
+### <br/>
 ![image](https://user-images.githubusercontent.com/62974484/191026501-1a6e65af-85fd-41e1-a264-49a0b0a397ab.png)
 ```
 from django.contrib.auth.base_user import AbstractBaseUser
@@ -172,4 +175,20 @@ class User(AbstractBaseUser) :
     
     class Meta : 
         db_table = "User"       # db 의 테이블 이름을 정할 수 있다. 
+```
+### <br/>
+
+### 새로운 db를 생성할 것이다. 혹시 모르니 sqltie db 를 백업해두고 dump 를 진행할 것이다.
+### vscode 에서는 ',' 등의 출력이 애매하게 나오기때문에 sqlite3 를 새로 다운로드해준다.
+#### https://www.sqlite.org/2022/sqlite-dll-win64-x64-3390300.zip
+### 그 다음 환경 변수 등록
+#### 시스템 변수 등록
+![image](https://user-images.githubusercontent.com/62974484/191027623-d94f9f95-e206-4568-b608-c6be05c38db5.png)
+#### 시스템 변수 - path 등록
+![image](https://user-images.githubusercontent.com/62974484/191027701-31c10c14-6d7b-4b2c-984e-cadd08b7a494.png)
+```
+-- 특정 테이블만 덤프
+.dump instagram_clone_feed
+-- 전체 db 덤프
+.dump
 ```
