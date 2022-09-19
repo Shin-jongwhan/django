@@ -39,10 +39,10 @@ python manage.py runserver
 ### <br/><br/>
 
 ### 다른 앱에 있는 urls 를 사용하는 방법(예시)
-### 아래는 자신의 폴더 안에 있는 views 에서 만든 api 를 가져오는 것이다.
+#### 아래는 자신의 폴더 안에 있는 views 에서 만든 api 를 가져오는 것이다.
 ![image](https://user-images.githubusercontent.com/62974484/191037832-0bb39167-3e20-45ab-962f-76dfaa2e3e03.png)
 ![image](https://user-images.githubusercontent.com/62974484/191038018-db099ff7-af72-4689-9090-3ba25924a20a.png)
-### 만약 다른 앱(폴더) 안에 있는 urls.py 를 사용하고 싶다면 urls.py 에 다음과 같이 적어주면 된다.
+#### 만약 다른 앱(폴더) 안에 있는 urls.py 를 사용하고 싶다면 urls.py 에 다음과 같이 적어주면 된다.
 
 ```
 from django.urls import path, include
@@ -51,8 +51,8 @@ urlpatterns = [
     path('', include('[앱 이름].urls'))
 ]
 ```
-### 이렇게 하면 장점은 앱마다 url 을 관리할 수 있다. 
-### 원래 앱 안에 있는 urls.py 에 content/upload 라는 주소로 UploadFeed api 를 호출하기 만들어놨는데 만약 content 라는 앱을 만들고 그 안에 urls.py 에 upload 라는 api 를 만들어주면 주소 창에서 똑같이 호출이 가능하다.
+#### 이렇게 하면 장점은 앱마다 url 을 관리할 수 있다. 
+#### 원래 앱 안에 있는 urls.py 에 content/upload 라는 주소로 UploadFeed api 를 호출하기 만들어놨는데 만약 content 라는 앱을 만들고 그 안에 urls.py 에 upload 라는 api 를 만들어주면 주소 창에서 똑같이 호출이 가능하다.
 #### 아래는 해당 url 주소에 get 방식을 안 만들어놨기 때문에 에러나는 것이고 잘 호출이 되는 것을 알 수 있다.
 ![image](https://user-images.githubusercontent.com/62974484/191039544-a57ed887-64be-47b4-958d-d288f52f7caf.png)
 
@@ -168,13 +168,13 @@ https://user-images.githubusercontent.com/62974484/185977423-fa90668d-ff07-4a94-
 
 ## 로그인 페이지 구현
 ### \* 로그인 페이지는 개별적으로 앱(프로젝트)을 새로 생성해줘서 관리한다.
-### 새로운 django 프로젝트를 생성한 후 기존 settings.py 에 앱을 등록해준다.
+#### 새로운 django 프로젝트를 생성한 후 기존 settings.py 에 앱을 등록해준다.
 ### <br/>
 ![image](https://user-images.githubusercontent.com/62974484/191025477-1f2735b4-2315-4d1d-93a6-d5cca1c2bda3.png)
-### django 에는 auth_user 라고 기본적인 user 테이블을 생성해주는데 커스텀 user 테이블을 생성하려면 다음과 같이 코드 추가
+#### django 에는 auth_user 라고 기본적인 user 테이블을 생성해주는데 커스텀 user 테이블을 생성하려면 다음과 같이 코드 추가
 ### <br/>
 ![image](https://user-images.githubusercontent.com/62974484/191026033-0be5c9db-bcf3-4a56-a5f7-570745ce0275.png)
-### user 앱 내에 models.py 를 작성한다.
+#### user 앱 내에 models.py 를 작성한다.
 ### <br/>
 ![image](https://user-images.githubusercontent.com/62974484/191026501-1a6e65af-85fd-41e1-a264-49a0b0a397ab.png)
 ```
@@ -201,13 +201,13 @@ class User(AbstractBaseUser) :
 ```
 ### <br/>
 
-### 새로운 db를 생성할 것이다. 혹시 모르니 sqltie db 를 백업해두고 dump 를 진행할 것이다.
-### vscode 에서는 ',' 등의 출력이 애매하게 나오기때문에 sqlite3 를 새로 다운로드해준다.
-#### https://www.sqlite.org/2022/sqlite-dll-win64-x64-3390300.zip
-### 그 다음 환경 변수 등록
-#### 시스템 변수 등록
+#### 새로운 db를 생성할 것이다. 혹시 모르니 sqltie db 를 백업해두고 dump 를 진행할 것이다.
+#### vscode 에서는 ',' 등의 출력이 애매하게 나오기때문에 sqlite3 를 새로 다운로드해준다.
+##### https://www.sqlite.org/2022/sqlite-dll-win64-x64-3390300.zip
+#### 그 다음 환경 변수 등록
+##### 시스템 변수 등록
 ![image](https://user-images.githubusercontent.com/62974484/191027623-d94f9f95-e206-4568-b608-c6be05c38db5.png)
-#### 시스템 변수 - path 등록
+##### 시스템 변수 - path 등록
 ![image](https://user-images.githubusercontent.com/62974484/191027701-31c10c14-6d7b-4b2c-984e-cadd08b7a494.png)
 ```
 # cmd 에서 sqlite3 실행
@@ -230,7 +230,7 @@ class User(AbstractBaseUser) :
 -- .read test.txt
 ```
 
-### 그 다음 makemigrations, migrate 해주면 django 웹에 반영 가능하다.
+#### 그 다음 makemigrations, migrate 해주면 django 웹에 반영 가능하다.
 ```
 # user 앱 폴더 안에 migration 폴더가 생성되고 db table 이 등록이 된다.
 > python manage.py makemigrations
@@ -241,7 +241,7 @@ class User(AbstractBaseUser) :
 ### <br/><br/>
 
 ### join.html 만들기
-### template 폴더 안에 user 폴더를 만든 후 join.html 을 만든다.
+#### template 폴더 안에 user 폴더를 만든 후 join.html 을 만든다.
 ![image](https://user-images.githubusercontent.com/62974484/191032652-b7b9a2a0-af09-48e4-aa62-8681c435e07a.png)
-### 부트스트랩 - 문서 - 스타터 템플릿을 복사해서 만든다.
+#### 부트스트랩 - 문서 - 스타터 템플릿을 복사해서 만든다.
 
