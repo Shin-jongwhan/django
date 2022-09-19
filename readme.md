@@ -35,7 +35,24 @@ django-admin startproject mysite
 ```
 python manage.py runserver
 ```
+
+### 다른 앱에 있는 urls 를 사용하는 방법(예시)
+### 아래는 자신의 폴더 안에 있는 views 에서 만든 api 를 가져오는 것이다.
+![image](https://user-images.githubusercontent.com/62974484/191037832-0bb39167-3e20-45ab-962f-76dfaa2e3e03.png)
+![image](https://user-images.githubusercontent.com/62974484/191038018-db099ff7-af72-4689-9090-3ba25924a20a.png)
+### 만약 다른 앱(폴더) 안에 있는 urls.py 를 사용하고 싶다면 urls.py 에 다음과 같이 적어주면 된다.
+### 이렇게 하면 장점은 앱마다 url 을 관리할 수 있다. 
+```
+from django.urls import path, include
+
+urlpatterns = [
+    path('', include('[앱 이름].urls'))
+]
+```
+
 ### <br/><br/><br/>
+
+
 
 ## 웹페이지 기본 틀 만들기
 ### 기본 틀 잡기
@@ -112,7 +129,7 @@ DELETE FROM instagram_clone_feed
 #### 웹페이지를 새로고침하면 출력된 것을 확인할 수 있다.
 ![image](https://user-images.githubusercontent.com/62974484/185757989-6552f9d9-cd0a-4be4-acc0-aa46d5c71fd4.png)
 
-## <br/><br/><br/>
+### <br/><br/><br/>
 
 ## 중간 점검
 ### DB 테이블을 다음과 같이 만들었다.
@@ -122,14 +139,14 @@ DELETE FROM instagram_clone_feed
 https://user-images.githubusercontent.com/62974484/185759170-996c3165-85e0-4927-8d12-17cfcfea8ef2.mp4
 
 
-## <br/><br/><br/> 
+### <br/><br/><br/> 
 
 ## 이미지 파일 업로드 화면 만들기(모달)
 ### Jquery, javascript 를 사용한다.
 #### 사진 업로드 구현
 https://user-images.githubusercontent.com/62974484/185799246-9dfe6c35-65f7-42f7-a140-8a13e0c70631.mp4
 
-## <br/><br/><br/>
+### <br/><br/><br/>
 
 ## 서버로 파일 업로드하는 API 만들기
 ### API 는 ajax 를 이용하여 만든다.
@@ -141,7 +158,7 @@ https://user-images.githubusercontent.com/62974484/185976857-68c0a507-f86c-400e-
 ### DB 도 같이 업데이트되고 왼쪽에 media 폴더에 보면 이미지 파일도 업로드가 된다.
 https://user-images.githubusercontent.com/62974484/185977423-fa90668d-ff07-4a94-a5e3-11ac8f3f0871.mp4
 
-## <br/><br/><br/>
+### <br/><br/><br/>
 
 ## 로그인 페이지 구현
 ### \* 로그인 페이지는 개별적으로 앱(프로젝트)을 새로 생성해줘서 관리한다.
@@ -214,3 +231,11 @@ class User(AbstractBaseUser) :
 # django 에 db 반영
 > python manage.py migrate
 ```
+
+### <br/><br/>
+
+### join.html 만들기
+### template 폴더 안에 user 폴더를 만든 후 join.html 을 만든다.
+![image](https://user-images.githubusercontent.com/62974484/191032652-b7b9a2a0-af09-48e4-aa62-8681c435e07a.png)
+### 부트스트랩 - 문서 - 스타터 템플릿을 복사해서 만든다.
+
