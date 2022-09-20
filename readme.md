@@ -56,6 +56,15 @@ urlpatterns = [
 #### 아래는 해당 url 주소에 get 방식을 안 만들어놨기 때문에 에러나는 것이고 잘 호출이 되는 것을 알 수 있다.
 ![image](https://user-images.githubusercontent.com/62974484/191039544-a57ed887-64be-47b4-958d-d288f52f7caf.png)
 
+### <br/><br/>
+
+### html 에서 django views.py 에서 넘어온 데이터를 확인하는 방법
+#### 로그인이 성공하였을 때 user 라는 객체를 넘겨주었다.
+![image](https://user-images.githubusercontent.com/62974484/191326140-361b51b0-4266-4275-b5ae-3393369106ad.png)
+#### 다음과 같이 쓰면 확인이 가능하다
+![image](https://user-images.githubusercontent.com/62974484/191326255-cd61d1d1-3e0c-48b5-a623-a278b9d9dcec.png)
+![image](https://user-images.githubusercontent.com/62974484/191326345-9f76fea1-d95d-4753-b73c-1c0fa1088c3a.png)
+
 ### <br/><br/><br/>
 
 
