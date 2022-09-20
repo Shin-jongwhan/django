@@ -62,8 +62,8 @@ urlpatterns = [
 #### 로그인이 성공하였을 때 user 라는 객체를 넘겨주었다.
 ![image](https://user-images.githubusercontent.com/62974484/191326140-361b51b0-4266-4275-b5ae-3393369106ad.png)
 #### 다음과 같이 쓰면 확인이 가능하다
-![image](https://user-images.githubusercontent.com/62974484/191326255-cd61d1d1-3e0c-48b5-a623-a278b9d9dcec.png) <
-![image](https://user-images.githubusercontent.com/62974484/191326345-9f76fea1-d95d-4753-b73c-1c0fa1088c3a.png)
+![image](https://user-images.githubusercontent.com/62974484/191326255-cd61d1d1-3e0c-48b5-a623-a278b9d9dcec.png) <br/> 
+![image](https://user-images.githubusercontent.com/62974484/191326345-9f76fea1-d95d-4753-b73c-1c0fa1088c3a.png) <br/> 
 
 ### <br/><br/><br/>
 
